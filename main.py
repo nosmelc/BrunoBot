@@ -20,7 +20,7 @@ async def on_ready():  # When the bot is ready
     print("I'm in")
     print(bot.user)  # Prints the bot's username and identifier
 
-# shit we cares about starts here!!
+# Shit we cares about starts here!!
 
 @bot.event
 async def on_message(message):
@@ -50,7 +50,7 @@ async def on_message(message):
         "when Bruno was 15 years old, he had a crush on his teacher (over twice his age) and he gave her a love letter with his mums ring in, which he had stolen from her! The teacher told his mother, and gave her the ring back! What a simp! :ring:",
         "his first written song was called ‘Sugar Mama’, and he admits it was horrible! :thumbsdown:",
         "out of desperation, Bruno Mars once accepted a job as a DJ! But because he doesn’t know a thing about DJing, he was fired right after his first gig! What a fucking loser! :joy::point_right: <:mars:809172688735830056>",
-        "Bruno Mars wrote an entire song because he was scared of losing his girlfriend who for some damn reason hasn't broken up with him yet.  What a little bitch!",
+        "he wrote an entire song because he was scared of losing his girlfriend who for some damn reason hasn't broken up with him yet.  What a little bitch!",
         "he would catch a grenade for you... :bomb::heart:",
         "bruno mars fuckin sucks",
         "he is awesome!!",
@@ -81,7 +81,6 @@ async def on_message(message):
         "https://i.pinimg.com/originals/46/3a/7d/463a7d63bf9de7e6ca14f0ef719a8062.jpg","I would rather not at this time. Frankly, the request alone discomforts me."]
         await message.channel.send(shirtList[random.randint(0, 8)])
 # End Strip
-    
     elif message.content.find("Keitho Mars") != -1:
         await message.channel.send("https://cdn.discordapp.com/attachments/200032422664994816/809195589006393384/20210210_175257.jpg")
     elif message.content == "boo":
@@ -92,13 +91,18 @@ async def on_message(message):
         await message.channel.send("https://cdn.discordapp.com/attachments/546473515679875102/805194084619780126/video0.mp4")
     elif message.content.find("obama") != -1:
         await message.channel.send("https://cdn.discordapp.com/attachments/809148317187440672/809232343365189672/tumblr_ournmeZc541vl9w4bo1_1280.png")
+# Number Commands
     elif message.content.find("24") != -1:
+      twentyFour = random.randint(1,3)
       if message.author != bot.user:
-        await message.channel.send("https://rb.gy/hwfz2k")
+        if twentyFour == 3:
+          await message.channel.send("https://rb.gy/hwfz2k")
     elif message.content.find("27") != -1:
+      twentySeven = random.randint(1,3)
       if message.author != bot.user:
-        await message.channel.send("https://rb.gy/q8lxny")
-             
+        if twentySeven == 3:
+          await message.channel.send("https://rb.gy/q8lxny")
+# Random Message
     x = random.randint(1, 100)
     brunoMars = [
     "I am Bruno Mars",
