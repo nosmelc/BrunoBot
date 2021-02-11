@@ -31,7 +31,7 @@ async def on_message(message):
     elif message.content.find("bye") != -1:
         await message.channel.send("I am still Bruno mars") 
     if message.content.find("b!commands") != -1:
-        await message.channel.send("https://i.imgur.com/7LpsF5k.png") 
+        await message.channel.send("https://cdn.discordapp.com/attachments/809148317187440672/809334168924323860/bruno.png") 
     elif message.content.find("b!kiss") != -1:
         await message.channel.send("https://tenor.com/view/bruno-mars-mwah-kiss-kissy-face-kisses-gif-7308595")
 
