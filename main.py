@@ -64,6 +64,8 @@ async def on_message(message):
         await message.channel.send("https://cdn.discordapp.com/attachments/809148317187440672/809189144889786429/unknown.png")
     elif message.content.find("he's coming for us oh god oh fuck") != -1:
         await message.channel.send("https://i.ytimg.com/vi/fLexgOxsZu0/maxresdefault.jpg")
+    elif message.content.find("elvis") != -1:
+	await message.channel.send("https://img.buzzfeed.com/buzzfeed-static/static/2017-03/23/17/tmp/buzzfeed-prod-fastlane-01/tmp-name-2-1118-1490303701-4_dblbig.jpg")
 # End Trivia
     elif message.content.find("cutie") != -1:
         await message.channel.send("https://tenor.com/view/bruno-mars-gif-11251108")
